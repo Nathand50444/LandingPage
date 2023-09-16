@@ -1,3 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .top-panel {
-    background-color:
+    background-color: #4f7942;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
