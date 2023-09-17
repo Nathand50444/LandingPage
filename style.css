@@ -84,7 +84,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
+
 }
 
 .info-title {
@@ -102,9 +103,35 @@ a {
     gap: 40px;
     text-align: center;
     width: min-content;
+    color: #1f2937;
 }
 
 .card {
     border-radius: 20px;
     border: solid #4f7942 5px;
+}
+
+.middle {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote-text {
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-size: 36px;
+    width: 750px;
+    margin: 0 auto;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
 }
