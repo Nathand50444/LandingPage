@@ -79,3 +79,32 @@ a {
     font-weight: bold;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    width: min-content;
+}
+
+.card {
+    border-radius: 20px;
+    border: solid #4f7942 5px;
+}
