@@ -3,8 +3,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .top-panel {
     background-color: #4f7942;
+    padding-bottom: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -12,8 +19,63 @@ body {
     align-items: center;
 }
 
+.logo-img {
+    padding: 15px;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-family: 'Yellowtail', cursive;
+}
+
+.links {
+    font-family: 'Yellowtail', cursive;
+    display: flex;
+    gap: 80px;
+}
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.title-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tagline {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 400px;
+}
+
+.image-1 {
+    display: flex;
+    margin: 20px;
+    border: solid rgb(173, 173, 173) 5px;
+}
+
+.sign-up {
+    width: fit-content;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
